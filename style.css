@@ -159,10 +159,12 @@ body{
     text-decoration: none;
     background-image: linear-gradient(blue, darkblue);
     color: white;
-    padding: 5px 8px;
+    padding: 8px 8px;
     font-size: 15px;
     border-radius: 8px;
-    border: none;
+    margin: auto;
+    display: block;
+    text-align: center;
     box-shadow: 3px 3px 12px #a49ff0;
 }
 .supportes{
