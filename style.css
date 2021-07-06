@@ -1,9 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 .head-section{
-    background-color: #f8f1f1;
+    background-color: #fff5f5;
 }
 .container{
     width: 90%;
@@ -113,7 +116,7 @@ body{
 
 /* Recipie Section Start */
 .recipie-section{
-    background-color: #f8f1f1;
+    background-color: fff5f5;
 }
 .recipie-content{
     display: flex;
@@ -182,3 +185,35 @@ body{
 .support-method h1{
     font-size: 45px;
 }
+/* Recipie Section End */
+
+/* Footer Start */
+footer{
+    background-color: black;
+    color: gray;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright p a{
+    text-decoration: none;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-half{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0;
+    margin: 15px;
+}
+.footer-half h1{
+    font-size: 40px;
+}
+/* Footer End */
