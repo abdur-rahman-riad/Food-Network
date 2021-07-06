@@ -18,6 +18,7 @@ body{
 .nav-bar img{
     width: 80%;
     padding: 15px 0;
+    cursor: pointer;
 }
 .nav-item{
    padding: 8px 20px;
@@ -26,6 +27,15 @@ body{
    font-weight: 400;
    border: none;
    color: crimson;
+}
+.nav-item:hover{
+    background-image: linear-gradient(orangered, crimson);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 3px 12px #fdb297;
 }
 .head-content{
     display: flex;
@@ -65,4 +75,33 @@ body{
     border-radius: 8px;
     border: none;
     box-shadow: 3px 3px 12px #fdb297;
+}
+/* Head Section End Here */
+
+/* About Section Start */
+.about-section{
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-half{
+    width: 100%;
+    padding-top: 100px;
+}
+.about-half img{
+    width: 100%;
+    margin-left: -35px;
+    margin-bottom: -8px;
+    padding: 0;
+}
+.about-text{
+    text-align: justify;
+    padding-right: 100px;
+    padding-bottom: 50px;
 }
